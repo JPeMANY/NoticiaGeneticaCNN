@@ -8,6 +8,11 @@ body {
     flex-direction: row;
 }
 
+.paginaToda {
+    display: flex;
+    flex-direction: row;
+}
+
 img {
     width: 100%;
     border-radius: 5px;
@@ -17,6 +22,10 @@ p {
     color: #262626;
     font-size: 17px;
     line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
 }
 
 .espacoEsquerdo, .espacoDireito {
@@ -42,6 +51,10 @@ p {
     display: flex;
     flex-direction: row;
     list-style: none;
+}
+
+.listaPreto a {
+    color: white;
 }
 
 .topicosPreto {
@@ -75,6 +88,10 @@ p {
     margin-top: 10px;
 }
 
+.maisLidas a {
+    color: #4d4d4d;
+}
+
 h1 {
     width: 90%;
     margin: 40px 0 20px 0;
@@ -106,6 +123,57 @@ h3 {
     margin-bottom: 25px;
 }
 
+.rodape {
+    background-color: #0f0f0f;
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.divisaoRodape {
+    margin-top: 40px;
+    width: 16%;
+    margin-left: 2%;
+}
+
+.logoZona {
+    width: 8%;
+    margin-left: 1%;
+}
+
+.logoZonaImg {
+    width: 100%;
+    border-radius: 0;
+}
+
+.ultimorodape {
+    margin-right: 1%;
+}
+
+.rodape p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.rodape ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rodape li {
+    font-size: 14px;
+    color: white;
+    line-height: 2;
+}
+
+.rodape a {
+    color: white;
+}
+
+
 @media (max-width: 1000px) {
     .espacoEsquerdo, .espacoDireito {
         display: none;
@@ -121,3 +189,8 @@ h3 {
     }
 }
 
+@media (max-width: 1400px) {
+    .espacoEsquerdo, .espacoDireito {
+        display: none;
+    }
+}
